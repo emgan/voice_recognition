@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #222222;
+  font-family: "Poppins", cursive;
+}
+
+
+.talk{
+  position: absolute;
+  left: 47%;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background: transparent;
+  padding: 15px 30px;
+  border: solid 1px #eeeeee;
+  color: #eeeeee;
+  transition: .3s ease-in;
+}
+
+.talk:hover{
+  cursor: pointer;
+  background: #eeeeee;
+  color: #222222;
+}
+
+.content{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+
+  color: #eeeeee;
+  font-size: 2rem;
+}
